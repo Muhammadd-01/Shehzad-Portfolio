@@ -15,6 +15,7 @@ export function Footer() {
   ]
 
   const footerLinks = [
+    { label: "Home", href: "#home" },
     { label: "About", href: "#about" },
     { label: "Services", href: "#services" },
     { label: "Work", href: "#projects" },
