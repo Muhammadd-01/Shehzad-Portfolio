@@ -39,7 +39,7 @@ export function AboutSection() {
                     rel="noopener noreferrer"
                     className="ml-2 text-primary hover:text-primary/80 transition-colors"
                   >
-                    <Globe className="w-5 h-5" />
+                    <img src="/website-icon.png" alt="NexoVate Digital" className="w-8 h-10 object-contain" />
                   </a>
                 </span>
                 — passionate about creating impactful visual content that drives engagement and brand growth.
