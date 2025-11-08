@@ -23,7 +23,7 @@ export function NameIntroSection() {
         <div className="flex justify-center mb-8">
           <div className="w-32 h-32 sm:w-48 sm:h-48 rounded-full bg-gradient-to-br from-primary/30 to-secondary/30 border-2 border-primary flex items-center justify-center shadow-lg">
             <img
-              src="/professional-portrait-designer.jpg"
+              src="/ShehzadPic.jpeg"
               alt="Profile"
               className="w-full h-full rounded-full object-cover"
             />
