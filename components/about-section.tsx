@@ -1,6 +1,6 @@
 "use client"
 
-import { Palette, Users, Lightbulb } from "lucide-react"
+import { Palette, Users, Lightbulb, Globe } from "lucide-react"
 import { ScrollReveal } from "./scroll-reveal"
 
 export function AboutSection() {
@@ -27,10 +27,22 @@ export function AboutSection() {
             <ScrollReveal animation="fade-in-up">
               <h2 className="text-4xl sm:text-5xl font-bold text-foreground text-balance">About Me</h2>
             </ScrollReveal>
+
             <ScrollReveal animation="fade-in-up" delay={0.1}>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-                A passionate graphic designer and social media marketing specialist with a proven track record of
-                creating impactful visual content that drives engagement and brand growth.
+                Social Media Marketer & Graphic Designer at{" "}
+                <span className="font-semibold text-foreground inline-flex items-center">
+                  NexoVate Digital
+                  <a
+                    href="https://nexovate-digital.vercel.app/" // <-- replace with your live link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-2 text-primary hover:text-primary/80 transition-colors"
+                  >
+                    <Globe className="w-5 h-5" />
+                  </a>
+                </span>
+                — passionate about creating impactful visual content that drives engagement and brand growth.
               </p>
             </ScrollReveal>
           </div>
@@ -66,6 +78,7 @@ export function AboutSection() {
                 </p>
               </div>
             </ScrollReveal>
+
             <ScrollReveal animation="slide-in-right">
               <div className="grid grid-cols-2 gap-4">
                 <div className="p-6 bg-background border border-border rounded-lg text-center">
