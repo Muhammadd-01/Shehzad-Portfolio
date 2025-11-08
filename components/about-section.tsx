@@ -1,6 +1,6 @@
 "use client"
 
-import { Palette, Users, Lightbulb, Globe } from "lucide-react"
+import { Palette, Users, Lightbulb } from "lucide-react"
 import { ScrollReveal } from "./scroll-reveal"
 
 export function AboutSection() {
@@ -30,16 +30,36 @@ export function AboutSection() {
 
             <ScrollReveal animation="fade-in-up" delay={0.1}>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-                Social Media Marketer & Graphic Designer at{" "}
+                CEO of{" "}
+                <span className="font-semibold text-foreground inline-flex items-center">
+                  GrowHub Digital
+                  <a
+                    href="https://growhubdigital.online/" // <-- your GrowHub Digital live link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-2 text-primary hover:opacity-80 transition-opacity"
+                  >
+                    <img
+                      src="/growhub-icon.png" // <-- replace with your GrowHub logo path
+                      alt="GrowHub Digital"
+                      className="w-7 h-7 object-contain"
+                    />
+                  </a>
+                </span>{" "}
+                & Social Media Marketer & Graphic Designer at{" "}
                 <span className="font-semibold text-foreground inline-flex items-center">
                   NexoVate Digital
                   <a
-                    href="https://nexovate-digital.vercel.app/" // <-- replace with your live link
+                    href="https://nexovate-digital.vercel.app/" // <-- your NexoVate live link
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="ml-2 text-primary hover:text-primary/80 transition-colors"
+                    className="ml-2 text-primary hover:opacity-80 transition-opacity"
                   >
-                    <img src="/website-icon.png" alt="NexoVate Digital" className="w-8 h-10 object-contain" />
+                    <img
+                      src="/website-icon.png" // <-- replace with your NexoVate logo path
+                      alt="NexoVate Digital"
+                      className="w-7 h-7 object-contain"
+                    />
                   </a>
                 </span>
                 — passionate about creating impactful visual content that drives engagement and brand growth.
