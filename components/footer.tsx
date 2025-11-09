@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Github, Linkedin, Instagram, Mail } from "lucide-react"
+import { Github, Linkedin, Instagram, Facebook , Mail } from "lucide-react"
 import { TypingAnimation } from "./typing-animation"
 
 export function Footer() {
@@ -10,7 +10,7 @@ export function Footer() {
   const socialLinks = [
     { icon: Instagram, label: "Instagram", href: "https://instagram.com" },
     { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-    { icon: Github, label: "GitHub", href: "https://github.com" },
+    { icon: Facebook, label: "Facebook", href: "https://Facebook.com" },
     { icon: Mail, label: "Email", href: "mailto:hello@example.com" },
   ]
 
