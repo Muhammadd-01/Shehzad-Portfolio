@@ -64,7 +64,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold text-foreground mb-3 text-sm">Navigation</h4>
+            <h4 className="font-semibold text-foreground mb-3 text-sm">Quick Links</h4>
             <ul className="space-y-2">
               {footerLinks.map((link) => (
                 <li key={link.label}>
