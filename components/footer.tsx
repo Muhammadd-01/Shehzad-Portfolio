@@ -9,7 +9,7 @@ export function Footer() {
 
   const socialLinks = [
     { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/shehzad.bin.rehman/?__pwa=1a" },
-    { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/shehzad-bin-rehman-1ba91b352/" },
     { icon: Facebook, label: "Facebook", href: "https://www.facebook.com/shehzad.bin.rehman" },
     { icon: Mail, label: "Email", href: "mailto:hello@example.com" },
   ]
