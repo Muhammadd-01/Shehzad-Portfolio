@@ -8,20 +8,21 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: 'Shehzad bin Rehman',
-  description: 'Created with v0',
+  description: "Portfolio of Shehzad Bin Rehman — a versatile graphic designer, social media strategist, and freelancer helping brands grow through creativity and digital marketing.",
+
   generator: 'v0.app',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '#',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '#',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '#',
         type: 'image/svg+xml',
       },
     ],
