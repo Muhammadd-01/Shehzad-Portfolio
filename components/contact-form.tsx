@@ -31,7 +31,7 @@ export function ContactForm() {
   }
 
   const contactInfo = [
-    { icon: Mail, value: "hello@example.com", link: "mailto:hello@example.com" },
+    { icon: Mail, value: "Shehzadbinrehman@gmail.com", link: "mailto:Shehzadbinrehman@gmail.com" },
     { icon: Phone, value: "+92 315 1177817", link: "tel:+923151177817" },
     { icon: MapPin, value: "Karachi, Pakistan", link: "#" },
   ]
