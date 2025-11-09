@@ -14,15 +14,15 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '#',
+        url: 'ShehzadIcon.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '#',
+        url: 'ShehzadIcon.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '#',
+        url: 'ShehzadIcon.png',
         type: 'image/svg+xml',
       },
     ],
