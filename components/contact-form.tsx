@@ -30,10 +30,20 @@ export function ContactForm() {
     alert("Message sent successfully!")
   }
 
+  // ✅ Updated Contact Info (Email opens Gmail, Location opens Google Maps)
   const contactInfo = [
-    { icon: Mail, value: "Shehzadbinrehman@gmail.com", link: "mailto:Shehzadbinrehman@gmail.com" },
+    {
+      icon: Mail,
+      value: "Shehzadbinrehman@gmail.com",
+      link:
+        "https://mail.google.com/mail/?view=cm&fs=1&to=Shehzadbinrehman@gmail.com&su=Inquiry%20from%20Portfolio%20Website&body=Hi%20Shehzad,%0A%0AI%20would%20like%20to%20discuss...",
+    },
     { icon: Phone, value: "+92 315 1177817", link: "tel:+923151177817" },
-    { icon: MapPin, value: "Karachi, Pakistan", link: "#" },
+    {
+      icon: MapPin,
+      value: "Karachi, Pakistan",
+      link: "https://www.google.com/maps/place/Sector+33-E,+Korangi+Industrial+Area,+Karachi",
+    },
   ]
 
   return (
@@ -51,7 +61,7 @@ export function ContactForm() {
           </ScrollReveal>
         </div>
 
-        {/* Contact Info (Icons above text) */}
+        {/* Contact Info */}
         <div className="flex flex-col sm:flex-row justify-center items-center gap-10 mb-12">
           {contactInfo.map((info, index) => {
             const Icon = info.icon
@@ -59,6 +69,8 @@ export function ContactForm() {
               <ScrollReveal key={index} animation="fade-in-up" delay={index * 0.1}>
                 <a
                   href={info.link}
+                  target="_blank" // ✅ Always open in new tab
+                  rel="noopener noreferrer"
                   className="flex flex-col items-center text-center text-foreground hover:text-primary transition-colors"
                 >
                   <Icon className="w-8 h-8 mb-2 text-primary" />

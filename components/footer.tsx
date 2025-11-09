@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { Linkedin, Instagram, Facebook, Mail } from "lucide-react"
-import { FaWhatsapp } from "react-icons/fa" // ✅ WhatsApp icon
+import { FaWhatsapp } from "react-icons/fa"
 import { TypingAnimation } from "./typing-animation"
 
 export function Footer() {
@@ -25,14 +25,15 @@ export function Footer() {
       href: "https://www.facebook.com/shehzad.bin.rehman",
     },
     {
-      icon: FaWhatsapp, // ✅ real WhatsApp icon
+      icon: FaWhatsapp,
       label: "WhatsApp",
       href: "https://wa.me/923151177817",
     },
     {
       icon: Mail,
       label: "Email",
-      href: "mailto:hello@example.com",
+      // ✅ Opens Gmail compose directly if user is logged in, or default mail app otherwise
+      href: "https://mail.google.com/mail/?view=cm&fs=1&to=Shehzadbinrehman@gmail.com&su=Inquiry%20from%20Portfolio%20Website&body=Hi%20Shehzad,%0A%0AI%20would%20like%20to%20discuss...",
     },
   ]
 
@@ -88,7 +89,7 @@ export function Footer() {
                   <a
                     key={social.label}
                     href={social.href}
-                    target="_blank"
+                    target="_blank" // ✅ Gmail or mail client opens in a new tab
                     rel="noopener noreferrer"
                     aria-label={social.label}
                     className={`p-2 text-muted-foreground hover:bg-primary/10 rounded-full transition-all duration-300 shadow-soft hover:shadow-soft-lg text-sm ${
