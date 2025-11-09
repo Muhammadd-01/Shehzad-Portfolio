@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: 'Shehzad bin Rehman',
   description: "Portfolio of Shehzad Bin Rehman — a versatile graphic designer, social media strategist, and freelancer helping brands grow through creativity and digital marketing.",
 
-  generator: 'v0.app',
+  generator: '#',
   icons: {
     icon: [
       {
