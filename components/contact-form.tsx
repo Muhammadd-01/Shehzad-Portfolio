@@ -51,18 +51,18 @@ export function ContactForm() {
           </ScrollReveal>
         </div>
 
-        {/* Simple Contact Info */}
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-12">
+        {/* Contact Info (Icons above text) */}
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-10 mb-12">
           {contactInfo.map((info, index) => {
             const Icon = info.icon
             return (
               <ScrollReveal key={index} animation="fade-in-up" delay={index * 0.1}>
                 <a
                   href={info.link}
-                  className="flex items-center gap-2 text-foreground text-lg hover:text-primary transition-colors"
+                  className="flex flex-col items-center text-center text-foreground hover:text-primary transition-colors"
                 >
-                  <Icon className="w-5 h-5 text-primary" />
-                  <span>{info.value}</span>
+                  <Icon className="w-8 h-8 mb-2 text-primary" />
+                  <span className="text-lg">{info.value}</span>
                 </a>
               </ScrollReveal>
             )

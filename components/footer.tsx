@@ -1,16 +1,16 @@
 "use client"
 
 import Link from "next/link"
-import { Github, Linkedin, Instagram, Facebook , Mail } from "lucide-react"
+import { Github, Linkedin, Instagram, Facebook , Mail, Target } from "lucide-react"
 import { TypingAnimation } from "./typing-animation"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
 
   const socialLinks = [
-    { icon: Instagram, label: "Instagram", href: "https://instagram.com" },
+    { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/shehzad.bin.rehman/?__pwa=1a" },
     { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-    { icon: Facebook, label: "Facebook", href: "https://Facebook.com" },
+    { icon: Facebook, label: "Facebook", href: "https://www.facebook.com/shehzad.bin.rehman" },
     { icon: Mail, label: "Email", href: "mailto:hello@example.com" },
   ]
 
@@ -63,6 +63,8 @@ export function Footer() {
                   <a
                     key={social.label}
                     href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer" 
                     aria-label={social.label}
                     className="p-2 text-muted-foreground hover:text-primary hover:bg-primary/10 rounded-full transition-all duration-300 shadow-soft hover:shadow-soft-lg text-sm"
                   >
