@@ -32,7 +32,7 @@ export function ContactForm() {
 
   const contactInfo = [
     { icon: Mail, value: "hello@example.com", link: "mailto:hello@example.com" },
-    { icon: Phone, value: "+1 (555) 123-4567", link: "tel:+15551234567" },
+    { icon: Phone, value: "+92 315 1177817", link: "tel:+923151177817" },
     { icon: MapPin, value: "San Francisco, CA", link: "#" },
   ]
 
