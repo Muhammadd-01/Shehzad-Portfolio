@@ -54,7 +54,8 @@ export function NameIntroSection() {
             View My Work
           </Link>
           <a
-            href="/resume.pdf"
+            href="/ShehzadResume.pdf"
+            target="_blank"
             className="inline-flex items-center justify-center px-8 py-3 border-2 border-primary text-primary rounded-full hover:bg-primary/5 transition-all duration-300 font-semibold shadow-soft hover:shadow-soft-lg hover:scale-105"
           >
             View Resume
