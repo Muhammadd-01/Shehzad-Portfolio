@@ -31,37 +31,33 @@ export function AboutSection() {
             <ScrollReveal animation="fade-in-up" delay={0.1}>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
                 CEO of{" "}
-                <span className="font-semibold text-foreground inline-flex items-center">
+                <a
+                  href="https://growhubdigital.online/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-foreground inline-flex items-center hover:text-primary transition-colors"
+                >
                   GrowHub Digital
-                  <a
-                    href="https://growhubdigital.online/" // <-- your GrowHub Digital live link
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="ml-2 text-primary hover:opacity-80 transition-opacity"
-                  >
-                    <img
-                      src="/growhub-icon.png" // <-- replace with your GrowHub logo path
-                      alt="GrowHub Digital"
-                      className="w-7 h-7 object-contain"
-                    />
-                  </a>
-                </span>{" "}
+                  <img
+                    src="/growhub-icon.png"
+                    alt="GrowHub Digital"
+                    className="w-7 h-7 object-contain ml-2"
+                  />
+                </a>{" "}
                 & Social Media Marketer & Graphic Designer at{" "}
-                <span className="font-semibold text-foreground inline-flex items-center">
+                <a
+                  href="https://nexovate-digital.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-foreground inline-flex items-center hover:text-primary transition-colors"
+                >
                   NexoVate Digital
-                  <a
-                    href="https://nexovate-digital.vercel.app/" // <-- your NexoVate live link
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="ml-2 text-primary hover:opacity-80 transition-opacity"
-                  >
-                    <img
-                      src="/website-icon.png" // <-- replace with your NexoVate logo path
-                      alt="NexoVate Digital"
-                      className="w-7 h-7 object-contain"
-                    />
-                  </a>
-                </span>
+                  <img
+                    src="/website-icon.png"
+                    alt="NexoVate Digital"
+                    className="w-7 h-7 object-contain ml-2"
+                  />
+                </a>
                 — passionate about creating impactful visual content that drives engagement and brand growth.
               </p>
             </ScrollReveal>
