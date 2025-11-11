@@ -31,7 +31,7 @@ export function HeroSection() {
             <ArrowRight className="ml-2" size={20} />
           </Link>
           <a
-            href="/resume.pdf"
+            href="/ShehzadResume.pdf"
             className="inline-flex items-center justify-center px-8 py-3 border-2 border-primary text-primary rounded-full hover:bg-primary/5 transition-all duration-300 font-semibold shadow-soft hover:shadow-soft-lg hover:scale-105"
           >
             <FileText className="mr-2" size={20} />
